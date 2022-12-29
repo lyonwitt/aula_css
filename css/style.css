@@ -3,6 +3,14 @@
     padding: 0px
 }
 
+@font-face{
+    font-family: BigNoodleTitling;
+    src: url("../fonts/big_noodle_titling.ttf");
+
+    font-family: Century Gothic;
+    src: url("../fonts/CenturyGothic.ttf");
+}
+
 body {
     background: url(../img/bg2.png) no-repeat fixed;
 
@@ -34,15 +42,16 @@ body {
 
 .texto-menu {
     font-family: BigNoodleTitling;
-    font-size: 18px;
+    font-size: 20px;
     color: #CCC;
 }
 
-li {
+.li-menu {
     margin-left: 25px;
+    display: inline;
 }
 
-li:hover {
+.li-menu:hover {
     opacity: 60%;
 }
 
@@ -52,7 +61,7 @@ li:hover {
     height: 40px;
 }
 
-.portal-jota {
+.login-jota {
     background-color: #3b3a3a;
     width: auto;
     height: 40px;
@@ -60,16 +69,20 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin: 0 0 0 50px;
-    font-family: BigNoodleTitling;
-    font-size: 30px;
-    color: #6b6b6b;
-    text-align: center;
 }
 
-.portal-jota:hover {
+.login-jota:hover {
     opacity: 30%;
+}
+
+.texto-login{
+    margin: 0 15px;
+    font-family: CENTURY GOTHIC;
+    font-weight: bold;
+    font-size: 20px;
+    color: #888;
+    text-align: center;
 }
 
 .rodape {
